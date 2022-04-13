@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffb8ff;
+    letter-spacing: 0.01rem;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 100;
+}
+
+main {
+    margin: 5em 15% 0 15%;
+}
+
+svg {
+    max-width: 420px;
+}
+
+p, li {
+    font-weight: bolder;
+    font-size: 1.8em;
+    letter-spacing: 3px;
+    line-height: 44px;
+}
+
+.principal-desc {
+    font-size: 2.8em;
+}
+
+.min-desc {
+    font-size: 1.2em;
+}
+
+.btn {
+    background-color: #3447f5;
+    display: inline-flex;
+    cursor: pointer;
+    border-radius: 50px;
+    width: auto;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-access {
+    color: #fff;
+    font-size: 1em;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 2.8em;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    transition-duration: 250ms;
+}
+
+.zig {
+    color: #111;
+}
+
+.bun {
+    margin: 0; 
+    color: #fff; 
+    -webkit-text-stroke: 1px #111;
+}
+
+@media (width < 750px)  {
+    main {
+        margin: 5em 5% 0 5%;
+    }
+    svg {
+        max-width: 340px;
+    }
+    p, li {
+        font-size: 1.2em;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+    .principal-desc {
+        font-size: 2.2em;
+        line-height: 40px;
+    }
+    .min-desc {
+        font-size: 0.9em;
+    }
+    .btn {
+        font-size: 0.4em;
+    }
+}
